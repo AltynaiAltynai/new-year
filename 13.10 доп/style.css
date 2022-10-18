@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: darkblue;
+	padding: 12px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.menu ul{
+	display: flex;
+	gap: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.menu a{
+	color: #f06292;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+.logo img{
+	width: 200px;
+}
+
+.nav-icon{
+	display: none;
+}
+
+/*@media all and (min-widt: 1000px){
+	header{
+		background-color: red;
+	}
+}
+
+@media (min-width: 544px), (orientation: landscape){
+	.logo{
+		display: none;
+	}
+}*/
+
+@media (max-width: 768px){
+	.menu{
+		display: none;
+	}
+	.i4{
+		position: relative;
+		top: 20px;
+		right: 20px;
+	}
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+/*X-Large devices( large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+}
+
+/*XX-Large devices(large desktops, 1400px and up)*/
+@media (min-width: 1400px){
+
+}
