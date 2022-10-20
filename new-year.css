@@ -1,18 +1,10 @@
-/*html{
-	overflow-y: hidden;
-}
-
-html{
-	overflow-x: hidden;
-}*/
-
 body{
 	margin: 0;
 	background: #1A5B35;
 }
 
 .container{
-	width: 100%;
+	max-width: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -35,7 +27,7 @@ body{
 }
 
 .pictures__4{
-	position: absolute;
+	position: fixed;
 	left: 10px;
 	bottom: 75px;
 	margin: 0;
@@ -95,9 +87,9 @@ h3{
 
 @media (max-width: 768px){
 	.pictures__4{
-		position: absolute;
+		position: fixed;
 		top: 110px;
-		left: 680px;
+		left: 80%;
 	}
 
 	.pictures__2, .pictures__3{
@@ -116,7 +108,7 @@ h3{
 		width: 60px;
 		position: absolute;
 		top: 70px;
-		right: 30px;
+		right: 20px;
 	}
 }
 
